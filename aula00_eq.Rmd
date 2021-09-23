@@ -87,13 +87,14 @@ knitr::include_graphics('https://media.giphy.com/media/TKNGghpLhaz9XH1tSj/giphy.
 
 # Espera-se do aluno de graduação 
 
-&#10004; Engajado com a disciplina. 
+&#10004; Dedicado com a disciplina.
 
-<br>
 
-&#10004; Dedicado ao estudos.
+&#10004; Base de matemática elementar.
 
-<br>
+
+&#10004; Conhecimento de derivada e integral. 
+
 
 &#10004; Honesto.
 
@@ -106,7 +107,7 @@ knitr::include_graphics('https://media.giphy.com/media/KM9Oag1SJ7PiyoWUEW/giphy.
 # Objetivo da disciplina &#127919;
 
 <div id="caixa">
- <div>O objetivoé proporcionar aos alunos de graduação em Engenharia Química uma introdução aos <font color="#0066cc">conceitos de estatística</font> utilizados na análise de dados, bem como o desenvolvimento da capacidade de <font color="#0066cc">interpretar os resultados</font> e estabelecer uma linguagem comum entre o Engenheiro e o Estatístico.</div>
+ <div>O objetivo é proporcionar aos alunos de graduação em Engenharia Química uma introdução aos <font color="#0066cc">conceitos de estatística</font> utilizados na análise de dados, bem como o desenvolvimento da capacidade de <font color="#0066cc">interpretar os resultados</font> e estabelecer uma linguagem comum entre o Engenheiro e o Estatístico.</div>
 </div>
 
 <br>
@@ -171,14 +172,14 @@ knitr::include_graphics('figuras/fig4.jpg')
 knitr::include_graphics('figuras/fig5.jpg')
 ```
 
----
+<!-- ---
 
 &#10004; Conceitos básicos de estatística experimental.
 
 ```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
 knitr::include_graphics('figuras/fig6.jpg')
 ```
-
+-->
 ---
 
 # Bibliografia básica
@@ -217,7 +218,7 @@ knitr::include_graphics('figuras/fig9.jpg')
 
 # Aulas - Resolução No19/2020 - COGEP
 
-&#10004; Dado as **boas condições** de regularidade, as aulas serão em **tempo real**. As gravações das aulas serão disponibilizadas posteriormente.
+&#10004; Dado as **boas condições** de regularidade, as aulas serão em **tempo real**. As aulas **não serão** gravadas.
 
 <br>
 --
@@ -277,7 +278,7 @@ knitr::include_graphics('figuras/fig10.jpg')
 
 <br>
 
-&#10004; Parte 2 das avaliações.
+&#10004; Comentários sobre os tópicos estudados.
 ]
 .pull-right[
 
@@ -302,13 +303,20 @@ Qualquer conflito com as datas das provas devem ser comunicados na **segunda sem
 .pull-left[
 <center>Prova 1</center>
 
-Sexta-feira, **16/07**
+Quinta-feira, **04/11**
+
+Sexta-feira, **05/11**
 ]
 .pull-right[
 <center>Prova 2</center>
 
-Sexta-feira, **20/08**
+Quinta-feira, **02/12**
+
+Sexta-feira, **03/12**
 ]
+
+<br>
+Poderá ser utilizado o material disponível no moodle institucional, bem como as anotações escritas pelo próprio aluno.
 
 ---
 
@@ -321,11 +329,15 @@ No caso do aluno perder, **por motivo de doença ou força maior** ou **problema
 .pull-left[
 <center>Prova de Segunda Chamada</center>
 
-Quinta-feira, **26/08**
+Quinta-feira, **09/12**
 ]
 .pull-right[
 
 ]
+
+<br>
+
+Trabalho ou viagem a passeio **não são motivos** para segunda chamada.
 
 ---
 
@@ -342,7 +354,19 @@ A desonestidade em nosso trabalho acadêmico representa uma **grave violação �
 
 Para maiores detalhes, consulte o **regulamento disciplinar do corpo discente da UTFPR**
 
-<http://www.utfpr.edu.br/estrutura-universitaria/pro-reitorias/prograd/legislacao/regulamento-disciplinar-2015>
+<https://portal.utfpr.edu.br/documentos/graduacao-e-educacao-profissional/prograd/diretrizes-e-regulamentos/gestao/regulamento-disciplinar-do-corpo-discente/view>
+
+---
+
+# Não divulgar informações falsas!
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics('https://media.giphy.com/media/3orieNLnAxzZI9CQzm/giphy.gif?cid=ecf05e47gv1g9buos2wnbph6pwbmk45fp0luz268sanoyrru&rid=giphy.gif&ct=g')
+```
+
+**Faça questionamentos** sobre as informações a respeito dos tópicos da disciplina. 
+
+**Reflita** sobre o que foi passado em sala de aula.
 
 ---
 
@@ -350,34 +374,16 @@ Para maiores detalhes, consulte o **regulamento disciplinar do corpo discente da
 
 Resolução 122/10-COEPP/Artigo 4:
 
-&#10004; Será aprovado o aluno que obtiver média final maior ou igual a 6 $(MF\geq6)$, em que
-		$$MF=\frac{P1+P2}{2} + BE,$$
-em que $BE$ é o **bônus por engajamento** com a disciplina.
+&#10004; Será aprovado o aluno que obtiver média ponderada maior ou igual a 6 $(MP\geq6)$, em que
+		$$MP=(0,4\times P1)+(0,5\times P2)+(0,2\times AE),$$
+em que $P1$ (0 a 10) e $P2$ (0 a 10) são avaliações escritas e $AE$ (0 a 5) é um trabalho de análise exploratória.
 
 <br>
 
-&#10004; O aluno com $MF<6$ deverá fazer a prova de recuperação (**matéria toda**) no dia 02-09-2021, que substituirá a **menor nota** entre $P1$ e $P2$. Em seguida, a média final será recalculada $(MF_{rec})$ considerando a nota da prova de recuperação. Então, a nota final será determinada pela expressão
+&#10004; O aluno com $MP<6$ deverá fazer a prova de recuperação (**matéria toda**) nos dias 16-12-2021 e 17-12-2021, que substituirá a **menor nota** entre $P1$ e $P2.$ Em seguida, a média ponderada será recalculada $(MP_{rec})$ considerando a nota da prova de recuperação. Então, a nota final será determinada pela expressão
 
-$$NF=\min(6,MF_{rec}).$$
-Será aprovado o aluno com $NF=6$.
-
----
-
-# <img src="figuras/mod.jpg"  style="width:25%">
-
-&#10004; <https://moodle.utfpr.edu.br/login/index.php>
-
-<br>
-
-&#10004; Londrina - Graduação - Engenharia Química - 2o período
-
-<br>
-
-&#10004; Disciplina: 2021 - S1 - Probabilidade e Estatística
-
-<br>
-
-&#10004; Senha: MA65AEQ2021S1
+$$NF=\min(6,MP_{rec}).$$
+Será aprovado o aluno com $NF\geq6$.
 
 ---
 
@@ -397,10 +403,32 @@ Para maiores detalhes, consulte o
 
 # Refletir
 
-**Eu vou conseguir** me dedicar a disciplina? 
+**Eu terei tempo** me dedicar a disciplina? 
+
+**Minha base matemática do ensino médio** é suficiente a disciplina?
+
+**Aprendi e consigo aplicar os conceitos** de derivada e integral?
 
 <br>
 
 ```{r , echo=FALSE, fig.align = 'center', out.width = '40%'}
 knitr::include_graphics('https://media.giphy.com/media/xThtanqVawzQNeHD20/giphy.gif')
 ```
+
+---
+
+# <img src="figuras/mod.jpg"  style="width:25%">
+
+&#10004; <https://moodle.utfpr.edu.br/login/index.php>
+
+<br>
+
+&#10004; Londrina - Graduação - Engenharia Química - 2o período
+
+<br>
+
+&#10004; Disciplina: 2021 - S2 - Probabilidade e Estatística
+
+<br>
+
+&#10004; Senha: MA65AEQ2021S2
