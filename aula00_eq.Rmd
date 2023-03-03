@@ -1,6 +1,6 @@
 ---
 title: "MA65A - Probabilidade e Estatística"
-subtitle: "Apresentação da Disciplina &#9749;" 
+subtitle: "Apresentação da Disciplina &#10024;" 
 author: "Elizabeth Mie Hashimoto <br> DAMAT-LD"
 output:
   xaringan::moon_reader:
@@ -85,9 +85,9 @@ knitr::include_graphics('figuras/utfpr.jpg')
 
 <br>
 
-- Porque você precisa estudar Estatística?
+- Em qual área você se vê futuramente?
 
-```{r , echo=FALSE, fig.align = 'right', out.width = '40%'}
+```{r , echo=FALSE, fig.align = 'right', out.width = '60%'}
 knitr::include_graphics('https://media.giphy.com/media/TKNGghpLhaz9XH1tSj/giphy.gif')
 ```
 
@@ -98,7 +98,7 @@ knitr::include_graphics('https://media.giphy.com/media/TKNGghpLhaz9XH1tSj/giphy.
 <!--acrescentar embed no link dos videos-->
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wV0Ks7aS7YI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="580" height="400" src="https://www.youtube.com/embed/wV0Ks7aS7YI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 ---
@@ -144,8 +144,6 @@ embed_url("https://www.youtube.com/watch?v=wV0Ks7aS7YI&t=27s") |>
  <div>O objetivo é proporcionar aos alunos de graduação em Engenharia de Química uma introdução aos <font color="#0066cc">conceitos de estatística</font> utilizados na análise de dados, bem como o desenvolvimento da capacidade de <font color="#0066cc">interpretar os resultados</font> e estabelecer uma linguagem comum entre o Engenheiro e o Estatístico.</div>
 </div>
 
-<br>
-
 .pull-left[
 Horário da Aula &#9200;
 ]
@@ -153,6 +151,8 @@ Horário da Aula &#9200;
 - Quarta-feira das 10:20--12:00
 
 - Sexta-feira das 10:20--12:00
+
+- **Tolerância**: 10 minutos
 ]
 
 <br>
@@ -163,14 +163,16 @@ Horário da Aula &#9200;
 Horário de Atendimento &#9200;
 ]
 .pull-right[
-- Quinta-feira das 16:40-18:20
+- Terça-feira das 20:20-21:10
 
-- Sábado das 11:10-12:00 (*online*)
+- Quarta-feira das 13:00-14:40
+
+- Sexta-feira das 9:10-10:00
 ]
 
 ---
 
-# Conteúdo Programático
+# Conteúdo Programático &#128214;
 
 &#10004; Conceitos básicos de estatística descritiva
 
@@ -216,7 +218,7 @@ knitr::include_graphics('figuras/fig6.jpg')
 
 ---
 
-# Bibliografia básica
+# Bibliografia básica &#128218;
 
 &#10004; BUSSAB, Wilton de Oliveira; MORETTIN, Pedro Alberto. **Estatística básica**. 5ed. São Paulo: Saraiva, 2004. 526 p.
 
@@ -226,7 +228,7 @@ knitr::include_graphics('figuras/fig8.jpg')
 
 ---
 
-# Bibliografia básica
+# Bibliografia básica &#128218;
 
 &#10004; MONTGOMERY, Douglas C.; RUNGER, George C. **Estatística aplicada e probabilidade para engenheiros**. 4ed. Rio de Janeiro, RJ: LTC, 2009, 493 p.
 
@@ -236,7 +238,7 @@ knitr::include_graphics('figuras/fig9.jpg')
 
 ---
 
-# Bibliografia complementar
+# Bibliografia complementar &#128218;
 
 - MORETTIN, L.G. **Estatística básica: probabilidade e inferência**, volume único. São Paulo: Pearson Prentice Hall, 2009. 375 p.
 
@@ -250,16 +252,20 @@ knitr::include_graphics('figuras/fig9.jpg')
 
 ---
 
-# Aulas
+# Aulas &#128210;
 
 &#10004; **Participar** da resolução dos exemplos, bem como do desenvolvimento de algum método quando for chamado.
 
-```{r , echo=FALSE, fig.align = 'center', out.width = '30%'}
+```{r, eval=FALSE, echo=FALSE, fig.align = 'center', out.width = '30%'}
 knitr::include_graphics('figuras/tarefa.jpg')
 ```
 
 
 &#10004; **Questionar** quando tiver dúvidas.
+
+```{r , echo=FALSE, fig.align = 'right', out.width = '60%'}
+knitr::include_graphics('https://media.giphy.com/media/STThOmSL9X8jpaEqfE/giphy.gif')
+```
 
 ---
 
@@ -267,17 +273,13 @@ knitr::include_graphics('figuras/tarefa.jpg')
 
 Haverá listas de exercícios para serem resolvidas em casa. Resolver os problemas da lista de exercícios é uma forma de aprendizagem, pois é uma maneira de colocar em prática tudo que você leu e ouviu, e vai lhe fornecer um *feedback* sobre o que foi abordado em sala de aula.
 
-```{r , echo=FALSE, fig.align = 'center', out.width = '55%'}
-knitr::include_graphics('figuras/fig10.jpg')
+```{r , echo=FALSE, fig.align = 'center', out.width = '30%'}
+knitr::include_graphics('https://media.giphy.com/media/1oBwBVLGoLteCP2kyD/giphy.gif')
 ```
 
-<br>
-
---
 
 &#10004; Vocês são **encorajados** a resolver problemas com os outros estudantes, compartilhar e discutir ideias.
 
---
 
 &#10004; As respostas de cada problema devem ser **resultados de seu próprio esforço**.
 
@@ -286,9 +288,8 @@ knitr::include_graphics('figuras/fig10.jpg')
 # Complementação de carga horária
 
 .pull-left[
-&#10004; Conceitos básicos de *software* `R`.  
 
-&#10004; Quizzes sobre: distribuição de frequência (tabelas e representação gráfica), outras distribuições de probabilidade contínuas e teste de hipótese para proporção.
+&#10004; Quizzes sobre conceitos teóricas e aplicações
 
 &#10004; Leitura.
 ]
@@ -315,25 +316,25 @@ Qualquer conflito com as datas das provas devem ser comunicados na **segunda sem
 .pull-left[
 <center>Prova 1</center>
 
-Sexta-feira, **09/09**
+Quarta-feira, **05/04**
 ]
 .pull-right[
 <center>Prova 2</center>
 
-Sexta-feira, **28/10**
+Quarta-feira, **17/05**
 ]
 
 .pull-left[
 <center>Prova 3</center>
 
-Sexta-feira, **02/12**
+Quarta-feira, **28/06**
 ]
 .pull-right[
 ]
 
 ---
 
-# Prova de segunda chamada 
+# Prova de segunda chamada &#128221;
 
 No caso do aluno perder, **por motivo de doença ou força maior**, alguma avaliação, poderá solicitar, através de requerimento, uma única segunda chamada por avaliação, desde que no prazo determinado no Regulamento da Organização Didático-Pedagógica dos Cursos da UTFPR (Art.36 - Graduação e Art.31 - Técnico)
 
@@ -342,7 +343,7 @@ No caso do aluno perder, **por motivo de doença ou força maior**, alguma avali
 .pull-left[
 <center>Prova de Segunda Chamada</center>
 
-Quarta-feira, **14/12**
+Quarta-feira, **05/07**
 ]
 .pull-right[
 
@@ -351,6 +352,45 @@ Quarta-feira, **14/12**
 <br>
 
 Trabalho ou viagem a passeio **não são motivos** para segunda chamada.
+
+---
+
+# Critério de avaliação &#128220;
+
+Resolução 122/10-COEPP/Artigo 4:
+
+&#10004; Será **aprovado** o aluno com 75% de presença e obtiver  $MF\geq6$, em que
+		$$MF=\frac{P1+P2+P3}{3},$$
+é a média final e $Pi (i=1,2,3)$ é a nota da $i$-ésima avaliação. 
+
+<br>
+
+--
+
+&#128680; O aluno com presença entre **25% à 50%**, será aprovado se $MF\geq8$.
+
+<br>
+
+--
+
+&#10004; Para $MF$ poderá ser acrescentado um bônus por engajamento de no **máximo** 0,5 pontos a depender da decisão da turma.
+
+---
+
+&#10004; O aluno com $MF<6$ deverá fazer a prova de recuperação (**matéria toda** e **sem consulta**) no dia 07-07-2023. A média final será recalculada por 
+$$MFr=\frac{MF+NR}{2},$$ 
+em que $NR$ é a nota da prova de recuperação. Então, a nota final será determinada pela expressão
+
+$$NF=\min(6,MPr).$$
+Será aprovado o aluno com $NF\geq6$.
+
+<br>
+
+--
+
+&#128680; **Aviso**
+
+Bônus e pontos extras não serão considerados para o cálculo da média da prova de recuperação.
 
 ---
 
@@ -383,23 +423,6 @@ knitr::include_graphics('https://media.giphy.com/media/3orieNLnAxzZI9CQzm/giphy.
 
 ---
 
-# Critério de avaliação &#128220;
-
-Resolução 122/10-COEPP/Artigo 4:
-
-&#10004; Será aprovado o aluno que obtiver média final maior ou igual a 6 $(MF\geq6)$, em que
-		$$MF=(P1+P2+P3)/3,$$
-em que $Pi (i=1,2,3)$ é a $i$-ésima avaliação. Para MF poderá ser acrescentado um bônus por engajamento de no **máximo** 0,5 pontos a depender da decisão da turma.
-
-<br>
-
-&#10004; O aluno com $MF<6$ deverá fazer a prova de recuperação (**matéria toda**) no dia 21-12-2022, que substituirá a **menor nota** entre $P1$, $P2$ e $P3.$ Em seguida, a média final será recalculada $(MFr)$ considerando a nota da prova de recuperação. Então, a nota final será determinada pela expressão
-
-$$NF=\min(6,MPr).$$
-Será aprovado o aluno com $NF\geq6$.
-
----
-
 # Espera-se do aluno de graduação 
 
 &#10004; Dedicado com a disciplina.
@@ -411,11 +434,38 @@ Será aprovado o aluno com $NF\geq6$.
 &#10004; Conhecimento de derivada e integral. 
 
 
-&#10004;  Questione e analise de forma racional e inteligente.
+&#10004; Respeite a professora e demais colegas.
 
 ```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
 knitr::include_graphics('https://media.giphy.com/media/KM9Oag1SJ7PiyoWUEW/giphy.gif')
 ```
+
+---
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics('https://media.giphy.com/media/3o7TKwmnDgQb5jemjK/giphy.gif')
+```
+
+
+- Não utilizar o celular durante a aula, a menos que seja pedido;
+
+<br>
+
+--
+
+- Não dormir em aula;
+
+<br>
+
+--
+
+- Não utilizar o *notebook*, a menos que seja pedido;
+
+<br>
+
+--
+
+- Prestar atenção quando um colega estiver fazendo perguntas.
 
 ---
 
@@ -449,6 +499,12 @@ knitr::include_graphics('https://media.giphy.com/media/xThtanqVawzQNeHD20/giphy.
 
 <br>
 
-&#10004; Senha: MA65AEQ2022S2
-
+.pull-left[
+&#10004; Senha: MA65AEQ2023
+]
+.pull-right[
+```{r , echo=FALSE, fig.align = 'left', out.width = '80%'}
+knitr::include_graphics('https://media.giphy.com/media/IoP0PvbbSWGAM/giphy.gif')
+```
+]
 
