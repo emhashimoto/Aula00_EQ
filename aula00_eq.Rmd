@@ -85,7 +85,7 @@ knitr::include_graphics('figuras/utfpr.jpg')
 
 <br>
 
-- Em qual área você se vê futuramente?
+- Em qual disciplina você teve mais facilidade e em qual teve mais dificuldade.
 
 ```{r , echo=FALSE, fig.align = 'right', out.width = '60%'}
 knitr::include_graphics('https://media.giphy.com/media/TKNGghpLhaz9XH1tSj/giphy.gif')
@@ -495,7 +495,7 @@ knitr::include_graphics('https://media.giphy.com/media/xThtanqVawzQNeHD20/giphy.
 
 <br>
 
-&#10004; Disciplina: 2022 - S2 - Probabilidade e Estatística
+&#10004; Disciplina: 2023 - S1 - Probabilidade e Estatística
 
 <br>
 
