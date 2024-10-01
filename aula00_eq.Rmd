@@ -95,11 +95,14 @@ knitr::include_graphics('figuras/utfpr.jpg')
 
 # Apresentar-se
 
-- Nome, a região de onde veio.
+- Nome
 
 <br>
 
-- Como você acha que a Estatística pode ser útil no desenvolvimento de novos produtos ou processos na Engenharia Química?
+- Estado do Brasil de origem
+
+<br>
+- Se você tivesse que descrever a Unidade curricular: Estatística Aplicada à Engenharia em uma palavra, qual seria?
 
 ```{r , echo=FALSE, fig.align = 'right', out.width = '60%'}
 knitr::include_graphics('https://media.giphy.com/media/TKNGghpLhaz9XH1tSj/giphy.gif')
@@ -248,13 +251,11 @@ knitr::include_graphics('figuras/fig9.jpg')
 
 ---
 
-# Aulas &#128210;
+# Aulas &#128105;&#8205;&#127979;
 
 &#10004; **Prestar atenção** no que está sendo copiado e no que está sendo discutido.
 
 &#10004; **Questionar** quando tiver dúvidas.
-
-&#10004; **Participar** da resolução dos exemplos e quando for questionado.
 
 ```{r , echo=FALSE, fig.align = 'right', out.width = '60%'}
 knitr::include_graphics('https://media.giphy.com/media/STThOmSL9X8jpaEqfE/giphy.gif')
@@ -434,6 +435,20 @@ knitr::include_graphics('https://media.giphy.com/media/3o7TKwmnDgQb5jemjK/giphy.
 --
 
 - Faltas não serão removidas, a não ser que seja um erro de digitação ou participação em eventos.
+
+---
+
+# Preparação e maturidade
+
+&#128680; Incluído o pré-requisito de Matemática da variação.
+
+<br>
+
+&#128680; Passou do 2o período para o 4o período.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '40%'}
+knitr::include_graphics('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXpidGpnZTF5bXRyb3N0Y2d2emV0c213NWFhcHR6anB4aW90emloeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3orifd9FwNUCc0Ecxi/giphy.gif')
+```
 
 ---
 
